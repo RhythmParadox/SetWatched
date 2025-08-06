@@ -1,0 +1,21 @@
+{
+  "id": "setwatched",
+  "name": "SetWatched",
+  "version": "1.0.0",
+  "manifestURI": "",
+  "language": "typescript",
+  "type": "plugin",
+  "description": "An example plugin",
+  "author": "./Zzzz",
+  "icon": "",
+  "website": "",
+  "lang": "multi",
+  "payloadURI": "E:\\Programming Projects\\Github\\NEW\\Seanime Extensions\\SetWatched\\setwatched.ts",
+  "plugin": {
+    "version": "1",
+    "permissions": {
+      "scopes": ["anilist"]
+    }
+  },
+  "isDevelopment": false
+}
