@@ -2,7 +2,7 @@
   "id": "setwatched",
   "name": "SetWatched",
   "version": "1.0.0",
-  "manifestURI": "https://raw.githubusercontent.com/RhythmParadox/SetWatched/refs/heads/master/setwatched.json",
+  "manifestURI": "https://raw.githubusercontent.com/RhythmParadox/SetWatched/refs/heads/master/manifest.json",
   "language": "typescript",
   "type": "plugin",
   "description": "A plugin that enables you to quickly set an anime / a specific episode to watched on Anilist, and input a rating if completed",
