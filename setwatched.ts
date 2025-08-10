@@ -22,13 +22,8 @@ function init() {
             label: "Set Watched",
         })
 
-        const sw_anime_card = ctx.action.newAnimePageDropdownItem({
-            label: "Set Watched",
-        })
-
         sw_media_card.mount()
         sw_episode_card.mount()
-        sw_anime_card.mount()
 
         const anime_rating_ref = ctx.fieldRef<string>('0')
         sw_media_card.onClick((e) => {
@@ -40,15 +35,6 @@ function init() {
             tray.open()
         })
 
-        sw_anime_card.onClick((e) => {
-            console.log(e)
-            const id = e.media.id
-            const max_eps = e.media.episodes
-            $store.set('sw_anime_name', e.media.title.english)
-            $store.set('sw_anime_id', id)
-            $store.set('sw_anime_ep', max_eps)
-            tray.open()
-        })
 
         sw_episode_card.onClick((e) => {
             const id = e.episode.baseAnime.id
